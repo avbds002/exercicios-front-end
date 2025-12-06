@@ -16,7 +16,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
-    <title>Oceanis</title>
+    <title>Oceanis Cruises 🌊✨</title>
   </head>
   <body>
     <main>
@@ -41,14 +41,14 @@
         </ul>
       </nav>
       <section
-        id="first-hero"
+        id="first-section"
         class="container-fluid background-img-container1"
       >
-        <div class="container-fluid p-5 text-dark">
+        <div class="container-fluid p-5 text-light">
           <h1 class="pb-5">Descubra o Paraíso em Alto Mar!</h1>
           <div>
-            <h3>Embarque numa experiência inesquecivel</h3>
-            <p class="pb-5 fs-4">
+            <h4>Embarque numa experiência inesquecivel</h4>
+            <p class="pb-5 fs-4" style="color: #f2f5f2">
               Navegue por destinos paradisíacos, explore paisagens deslumbrantes
               e aproveite o luxo e conforto de um cruzeiro projetado para
               transformar suas férias em momentos inesquecíveis.
@@ -68,7 +68,144 @@
           </div>
         </div>
       </section>
-      <section></section>
+      <section id="second-section" class="container">
+        <div class="row">
+          <div class="p-5">
+            <h1>Viva a melhor experiência a bordo</h1>
+            <h3 class="text-body-secondary pb-3">
+              Conforto, diversão e experiências inesquecíveis para você!
+            </h3>
+            <div id="secondSectionCarousel" class="carousel slide rounded-3">
+              <div class="carousel-indicators">
+                <button
+                  type="button"
+                  data-bs-target="#secondSectionCarousel"
+                  data-bs-slide-to="0"
+                  class="active"
+                  aria-current="true"
+                  aria-label="Slide 1"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#secondSectionCarousel"
+                  data-bs-slide-to="1"
+                  aria-label="Slide 2"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#secondSectionCarousel"
+                  data-bs-slide-to="2"
+                  aria-label="Slide 3"
+                ></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="assets/pexels-lachlan-ross-6510311.webp"
+                    class="d-block img-fluid rounded-5"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="assets/pexels-chuck-henjes-1956132-27726880.webp"
+                    class="d-block img-fluid rounded-5"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="assets/pexels-capturedbyaugustine-19532072.webp"
+                    class="d-block img-fluid rounded-5"
+                    alt="..."
+                  />
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#secondSectionCarousel"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#secondSectionCarousel"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <h1>Depoimentos de quem já embarcou</h1>
+          <h3>
+            Veja o que os nossos viajantes dizem sobre essa experiência
+            incrível!
+          </h3>
+          <div class="row text-center d-flex align-items-center">
+            <div class="col-lg-4 p-2 border rounded-3">
+              <img
+                src="assets/pexels-creationhill-1681010.jpg"
+                alt=""
+                srcset=""
+                class="rounded-circle"
+                width="160"
+                height="160"
+              />
+              <h2 class="fw-normal">Heading</h2>
+              <p>
+                Some representative placeholder content for the three columns of
+                text below the carousel. This is the first column.
+              </p>
+              <p><a class="btn btn-secondary" href="#">View details »</a></p>
+            </div>
+            <div class="col-lg-4 p-2 border rounded-3">
+              <img
+                src="assets/pexels-vinicius-wiesehofer-289347-1090387.jpg"
+                alt=""
+                srcset=""
+                class="rounded-circle"
+                width="160"
+                height="160"
+              />
+              <p>
+                <b>Maria S.</b> "Uma viagem inesquecível! O atendimento foi
+                impecável e os detinos, simplesmente deslumbrantes. Mal posso
+                esperar para embarcar novamente!"
+              </p>
+              <p><a class="btn btn-secondary" href="#">View details »</a></p>
+            </div>
+            <div class="col-lg-4 p-2 border rounded-3">
+              <img
+                src="assets/pexels-pixabay-371160.jpg"
+                alt=""
+                srcset=""
+                class="rounded-circle"
+                width="160"
+                height="160"
+              />
+              <h2 class="fw-normal">Heading</h2>
+              <p>
+                Some representative placeholder content for the three columns of
+                text below the carousel. This is the first column.
+              </p>
+              <p><a class="btn btn-secondary" href="#">View details »</a></p>
+            </div>
+          </div>
+        </div>
+      </section>
       <section></section>
       <section></section>
       <section></section>
